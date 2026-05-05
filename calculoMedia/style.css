@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comic Relief", system-ui;
+    color: aliceblue;
 }
 body{
     padding-top: 80px;
@@ -11,4 +13,9 @@ body{
     background-size: cover;
     min-height: 100vh;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
 }
