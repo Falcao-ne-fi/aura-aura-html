@@ -19,3 +19,22 @@ body{
     flex-direction: column;
     gap: 5vh;
 }
+input{
+    padding: 15px;
+    border-radius: 999px;
+    border: none;
+    border: 2px solid navy;
+    color: deeppink;
+}
+button{
+    padding: 15px;
+    border-radius: 999px;
+    border: none;
+    border: 2px solid navy;
+    color: deeppink;
+}
+button:hover{
+    cursor: pointer;
+        background-color: crimson;
+    color: darkgoldenrod;
+}
