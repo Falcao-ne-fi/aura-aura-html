@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/bg-gato.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#v1{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+#v2{
+    display: none;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 5px;
+    height: 45vh;
+    font-size: 40px;
+    font-family: cursive;
+    align-content: space-between;
+    gap: 30px;
+}
+#botao{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.resto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px #090909;
+}
+
+a{
+    text-decoration: none;
+    color: #090909;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+body{
+    padding-top: 100px;
+}
