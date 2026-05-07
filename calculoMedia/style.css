@@ -38,3 +38,27 @@ button:hover{
         background-color: crimson;
     color: darkgoldenrod;
 }
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px #090909;
+}
+
+a{
+    text-decoration: none;
+    color: #090909;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 1;
+}
